@@ -1,0 +1,195 @@
+
+
+许可协议
+
+--------------------------------------------------------------------------------
+
+CEIWEI CommMonitor  最终用户使用许可协议  版权所有: CEIWEI 网络科技  
+-------------------------------------------------------------------
+
+       CEIWEI网络科技以下简称(CEIWEI)
+       CommMonitor 串口监视精灵 软件，以下简称(CommMonitor)
+       CEIWEI包括根域名CEIWEI.com和所有与之相关的子域名。 
+
+       CommMonitor 是CEIWEI提供的串口监视(监控、侦测)服务的免费软件。
+       本《最终用户许可协议》（以下简称『许可协议』）是一份，您（个人或单一法人团体）与『CEIWEI』，就
+
+『CommMonitor 』之软件产品，其中包括书面资料、相关之媒体介质、以及可能包括『CEIWEI.com在线』或电子文档（以
+
+下简称为『软件产品』或『软件』）间所合法成立之协议。您一旦安装、拷贝或以其他方式使用本『软件产品』，即表示
+
+同意接受本『许可协议』条款之约束。若您不同意本『许可协议』之条款，即不得使用本『软件产品』。
+
+       本软件产品版权属于『CEIWEI』所有，并受著作权法、国际版权公约以及其它知识产权之法律及条约之保护，因
+
+此您不得复制本软件和附随之使用手册及其他书面资料，并不得利用任何方法取得使用本软件之程序代码、文字资料、图
+
+片、影像、音乐和音效等电子文档。
+  
+
+1、授权。
+　 本『软件产品CommMonitor』仅系免费使用，用户不能以此发布与之相同的衍生版本。
+
+2、限制。
+　　您应保留所有『软件产品CommMonitor』拷贝上之著作权标示。
+　　您不得对本『软件产品CommMonitor』进行反向工程(Reverse engineer)、反向编译(Decompile)或反汇编 
+
+(Disassemble)。但若有所适用之法律法规禁止上述限制，则不在此限。
+
+　　您不得出租，出借或商业经营为目的使用『软件产品CommMonitor』。
+　　您必须遵守所有『软件』产品使用之相关法律。
+
+3、终止。
+　　若您未能遵守本『许可协议』之条款或条件，则『CEIWEI』有权在不妨碍其他权力之情况下，终止本『许可协议』。
+
+届时您必须销毁本『软件产品』之所有拷贝。
+    若网上发现了属于您的出借或商业经营为目的使用『软件产品CommMonitor』，『CEIWEI』有权在通知您终止使用而未
+
+决时，向法院提起对您的诉讼。
+
+4、著作权。
+　　凡与本『软件产品』及其拷贝有关之所有权与著作权均属『CEIWEI』其版权所有者所有。凡与因透过本『软件产品』
+
+而存取之资料内容之所有权以及知识产权，均属各该资料之所有权人，并受相关著作权法或其他知识产权法律与条约之保
+
+护。本『许可协议』并不授权您就该等资料之内容享有使用之权力。
+
+5、免责声明
+　　您因使用本『软件产品CommMonitor』所造成之任何损失和风险将由您独自承担。在相关法律所允许之最大范围内，『
+
+CEIWEI』及其CEIWEI.COM不承担任何Bug担保责任与条件，不论其为明示或默示者，其中包括（但不限于）适售性、适何某
+
+特定用途以及不侵害他人权益之默示担保责任。
+
+6、就衍生性损害不负赔偿责任。
+　　在相关法律所允许之最大范围内，『CEIWEI』或其供应商对于您因使用或不能使用本『软件产品』而遭受之特别、衍
+
+生性、直接或间接损害（包括，但不限于营业利益之损失、营业中断、数据丢失或其他有形或无形损失）不负任何损害赔
+
+赏责任。此项规定不因您事先告知『CEIWEI』或其供应商，该损害发生之可能性而有所不同。
+
+7、其他规定。
+　　本『许可协议』适合中国（香港、澳门、台湾除外）法律。就本『许可协议』涉及的一切诉讼，您同意以中国·北京
+
+地方法院为第一审管辖法院。本『许可协议』中未提及到的其他一切权力『CEIWEI』均予保留。若您就本『许可协议』有
+
+任何疑问，请接洽『CEIWEI CommMonitor』作者。邮箱：jfyes@hotmail.com
+
+8、其他软件。
+     凡是软件的产品、包装、说明等出现或提到的非『CEIWEI』所有的软件及名称，其版权属于该产品版权所有者所有，
+
+在此向其表示感谢。
+
+9.隐私条款
+      CEIWEI尊重并保护所有使用CommMonitor的用户的个人隐私权。
+
+
+10.本服务条款的解释权与修改权属于CEIWEI。
+
+
+
+-------------------------------------------------------------------------------------------------------------------------------------
+
+
+License
+
+-------------------------------------------------- ------------------------------
+
+CEIWEI CommMonitor end user license agreement Copyright: CEIWEI Network Technology
+-------------------------------------------------- -----------------
+
+       CEIWEI Network Technology hereinafter referred to as (CEIWEI)
+       CommMonitor Wizard software serial port monitor, hereinafter referred to as (CommMonitor)
+       CEIWEI including the root domain CEIWEI.com and all associated sub-domains.
+
+       CommMonitor is CEIWEI provide serial monitoring (monitoring, detection) services free software.
+       The "End User License Agreement" (hereinafter referred to as "License Agreement") is a, you (individual or single entity) and "CEIWEI", on the
+
+"CommMonitor" of software products, including written information, related media, media, and may include "CEIWEI.com online" or electronic documentation (the
+
+Hereinafter referred to as "Software Product" or "software") agreement between the legal establishment. Once you install, copy or otherwise use the "Software Product" means that
+
+Agreed to accept the "License Agreement" provisions of the constraints. If you do not agree with the "License Agreement" terms, that may not use the "software products."
+
+       Copyright belongs to the software product "CEIWEI" and is protected by copyright laws and international copyright conventions and other intellectual property laws and treaties of protection, because
+
+You may not copy this software and the accompanying use of manuals and other written information, and shall not use any method to get the code to use the software, text data, map
+
+Film, video, music and sound effects and other electronic documents.
+  
+
+1, authorized.
+The "Software Product CommMonitor" only and free to use, the user can not use the release version with the same derivative.
+
+2, restriction.
+You should keep all the "software products CommMonitor" copy on the copyright notice.
+You may not the "Software Product CommMonitor" reverse engineering (Reverse engineer), reverse compile (Decompile) or disassemble
+
+(Disassemble). However, if the applicable laws and regulations have prohibited the above restrictions, are permitted.
+
+You may not rent, loan or business operation for the purpose of using the "Software Product CommMonitor".
+You must comply with all the "software" product of the relevant laws.
+
+3, termination.
+If you fail to comply with the "License Agreement" the terms or conditions are "CEIWEI" without prejudice to other powers in the right circumstances, the termination of this "License Agreement."
+
+Then you must destroy the "Software Product" of all copies.
+    If you found a part of your online or commercial lending business for the purpose of using the "Software Product CommMonitor", "CEIWEI" the right to terminate your use without notice
+
+Decisions, to the court for your lawsuit.
+
+4, copyright.
+All of this "software product" and its copy on the ownership and copyright are "CEIWEI" all of its copyright holder. All through this with the result of "Software Product"
+
+The access to the information content of the ownership and intellectual property, are the owner of the information, and is protected by relevant copyright law or other intellectual property laws and treaties protect
+
+Care. The "License Agreement" does not authorize you to enjoy the contents of such information to use the power.
+
+5 Disclaimer
+Your use of this "software product CommMonitor" and any loss caused by your sole risk. In the relevant maximum extent permitted by law, the "
+
+CEIWEI "and CEIWEI.COM Bug does not assume any responsibility and guarantee conditions, whether express or implied, including (but not limited to) merchantability, fitness Hemou
+
+PARTICULAR PURPOSE AND NON-INFRINGEMENT, the implied warranties.
+
+6, it liable for consequential damages.
+In the relevant maximum extent permitted by law within, "CEIWEI" or its suppliers for your use of or inability to use the "Software Product" and subject to the special, Yan
+
+Nature, direct or indirect damages (including, without limitation, loss of business interests, business interruption, loss of data or other tangible or intangible losses) assumes no damages
+
+Reward responsibility. This shall not be due to your prior informed "CEIWEI" or its suppliers, the possibility of occurrence of the damage varies.
+
+7, other provisions.
+The "License Agreement" for the Chinese (Hong Kong, Macao, Taiwan) law. On the "License Agreement" for all involved in litigation, you agree to Beijing, China
+
+District Court for the first instance court of competent jurisdiction. The "License Agreement" is not mentioned in all the other powers "CEIWEI" are reserved. If you are on the "License Agreement" has
+
+Any questions, please contact "CEIWEI CommMonitor" author. E-mail: jfyes@hotmail.com
+
+8, other software.
+     All software products, packaging, instructions, etc. mentioned in the presence or non-"CEIWEI" the name of all the software and its copyright belongs to the copyright owner of all products,
+
+In their gratitude.
+
+9. Privacy Policy
+      CEIWEI respect and protect all users to use CommMonitor privacy.
+
+
+10 to interpret the terms of service and the right to amend is CEIWEI.
+ 
+
+
+
+
+--------------------------------------------------------------------
+ jfyes@qq.com
+ http://www.ceiwei.com/
+
+ 
+
+
+--------------------------------------------------------------------------------
+
+
+copyright (C) 2003-2011 CEIWEI 网络科技  
+www.ceiwei.com

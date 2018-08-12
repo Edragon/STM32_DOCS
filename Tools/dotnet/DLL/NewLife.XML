@@ -1,0 +1,448 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NewLife</name>
+    </assembly>
+    <members>
+        <member name="T:NewLife.IOTimer">
+            <summary>IO定时器</summary>
+        </member>
+        <member name="M:NewLife.IOTimer.#ctor(System.Byte)">
+            <summary>通过指定定时器构造一个IO定时器实例</summary>
+            <param name="timer">定时器，从1开始</param>
+        </member>
+        <member name="M:NewLife.IOTimer.#ctor(System.Byte,System.Byte)">
+            <summary>通过指定定时器和通道构造一个IO定时器实例</summary>
+            <param name="timer">定时器，从1开始</param>
+            <param name="channel">通道，0到4</param>
+        </member>
+        <member name="M:NewLife.IOTimer.Finalize">
+            <summary>析构</summary>
+        </member>
+        <member name="M:NewLife.IOTimer.Dispose">
+            <summary>销毁</summary>
+        </member>
+        <member name="M:NewLife.IOTimer.Start">
+            <summary>开始</summary>
+        </member>
+        <member name="M:NewLife.IOTimer.Stop">
+            <summary>停止</summary>
+        </member>
+        <member name="P:NewLife.IOTimer.Timer">
+            <summary>定时器</summary>
+        </member>
+        <member name="P:NewLife.IOTimer.Channel">
+            <summary>频道</summary>
+        </member>
+        <member name="P:NewLife.IOTimer.Pin">
+            <summary>针脚</summary>
+        </member>
+        <member name="P:NewLife.IOTimer.Period">
+            <summary>周期。在下一个更新事件装入活动的自动重装载寄存器周期的值。它的取值必须在0x0000和0xFFFF之间。</summary>
+        </member>
+        <member name="P:NewLife.IOTimer.Duration">
+            <summary>持续时间。除以<see cref="P:NewLife.IOTimer.Period"/>就是占空比，一般50%</summary>
+        </member>
+        <member name="P:NewLife.IOTimer.DutyCycle">
+            <summary>占空比</summary>
+        </member>
+        <member name="P:NewLife.IOTimer.Frequency">
+            <summary>频率</summary>
+        </member>
+        <member name="P:NewLife.IOTimer.Scale">
+            <summary>分频比例</summary>
+        </member>
+        <member name="P:NewLife.IOTimer.Invert">
+            <summary>极性反转。默认false为高电平，检测上升沿；true为低电平，检测下降沿</summary>
+        </member>
+        <member name="P:NewLife.IOTimer.Count">
+            <summary>计数个数。默认-1，不计数。如果指定，定时器发出该个数中断后自动停止，Start前设为0才能启用计数功能。</summary>
+        </member>
+        <member name="T:NewLife.IOTimer.Scales">
+            <summary>分频比例</summary>
+        </member>
+        <member name="F:NewLife.IOTimer.Scales.Milliseconds">
+            <summary>毫秒</summary>
+        </member>
+        <member name="F:NewLife.IOTimer.Scales.Microseconds">
+            <summary>微秒</summary>
+        </member>
+        <member name="F:NewLife.IOTimer.Scales.Nanoseconds">
+            <summary>纳秒</summary>
+        </member>
+        <member name="T:NewLife.Led4">
+            <summary>四位数码管</summary>
+        </member>
+        <member name="F:NewLife.Led4.LedDigitals">
+            <summary>每个数字的段数，一个字节只用七位，表示数码管七段顺时针</summary>
+        </member>
+        <member name="F:NewLife.Led4.PublicPins">
+            <summary>数码管公共脚</summary>
+        </member>
+        <member name="F:NewLife.Led4.SevenPins">
+            <summary>数码管七段脚</summary>
+        </member>
+        <member name="F:NewLife.Led4.LedPins">
+            <summary>实际控制板针脚</summary>
+        </member>
+        <member name="M:NewLife.Led4.Start">
+            <summary>开始</summary>
+        </member>
+        <member name="M:NewLife.Led4.Stop">
+            <summary>停止</summary>
+        </member>
+        <member name="P:NewLife.Led4.Value">
+            <summary>要显示的数字</summary>
+        </member>
+        <member name="P:NewLife.Led4.IsHex">
+            <summary>进制。只支持十进制和十六进制</summary>
+        </member>
+        <member name="T:NewLife.Pins">
+            <summary>针脚</summary>
+        </member>
+        <member name="F:NewLife.Pins.None">
+            <summary>未定义针脚</summary>
+        </member>
+        <member name="F:NewLife.Pins.PA0">
+            <summary>针脚PA0</summary>
+        </member>
+        <member name="F:NewLife.Pins.PA1">
+            <summary>针脚PA1</summary>
+        </member>
+        <member name="F:NewLife.Pins.PA2">
+            <summary>针脚PA2</summary>
+        </member>
+        <member name="F:NewLife.Pins.PA3">
+            <summary>针脚PA3</summary>
+        </member>
+        <member name="F:NewLife.Pins.PA4">
+            <summary>针脚PA4</summary>
+        </member>
+        <member name="F:NewLife.Pins.PA5">
+            <summary>针脚PA5</summary>
+        </member>
+        <member name="F:NewLife.Pins.PA6">
+            <summary>针脚PA6</summary>
+        </member>
+        <member name="F:NewLife.Pins.PA7">
+            <summary>针脚PA7</summary>
+        </member>
+        <member name="F:NewLife.Pins.PA8">
+            <summary>针脚PA8</summary>
+        </member>
+        <member name="F:NewLife.Pins.PA9">
+            <summary>针脚PA9</summary>
+        </member>
+        <member name="F:NewLife.Pins.PA10">
+            <summary>针脚PA10</summary>
+        </member>
+        <member name="F:NewLife.Pins.PA11">
+            <summary>针脚PA11</summary>
+        </member>
+        <member name="F:NewLife.Pins.PA12">
+            <summary>针脚PA12</summary>
+        </member>
+        <member name="F:NewLife.Pins.PA13">
+            <summary>针脚PA13</summary>
+        </member>
+        <member name="F:NewLife.Pins.PA14">
+            <summary>针脚PA14</summary>
+        </member>
+        <member name="F:NewLife.Pins.PA15">
+            <summary>针脚PA15</summary>
+        </member>
+        <member name="F:NewLife.Pins.PB0">
+            <summary>针脚PB0</summary>
+        </member>
+        <member name="F:NewLife.Pins.PB1">
+            <summary>针脚PB1</summary>
+        </member>
+        <member name="F:NewLife.Pins.PB2">
+            <summary>针脚PB2</summary>
+        </member>
+        <member name="F:NewLife.Pins.PB3">
+            <summary>针脚PB3</summary>
+        </member>
+        <member name="F:NewLife.Pins.PB4">
+            <summary>针脚PB4</summary>
+        </member>
+        <member name="F:NewLife.Pins.PB5">
+            <summary>针脚PB5</summary>
+        </member>
+        <member name="F:NewLife.Pins.PB6">
+            <summary>针脚PB6</summary>
+        </member>
+        <member name="F:NewLife.Pins.PB7">
+            <summary>针脚PB7</summary>
+        </member>
+        <member name="F:NewLife.Pins.PB8">
+            <summary>针脚PB8</summary>
+        </member>
+        <member name="F:NewLife.Pins.PB9">
+            <summary>针脚PB9</summary>
+        </member>
+        <member name="F:NewLife.Pins.PB10">
+            <summary>针脚PB10</summary>
+        </member>
+        <member name="F:NewLife.Pins.PB11">
+            <summary>针脚PB11</summary>
+        </member>
+        <member name="F:NewLife.Pins.PB12">
+            <summary>针脚PB12</summary>
+        </member>
+        <member name="F:NewLife.Pins.PB13">
+            <summary>针脚PB13</summary>
+        </member>
+        <member name="F:NewLife.Pins.PB14">
+            <summary>针脚PB14</summary>
+        </member>
+        <member name="F:NewLife.Pins.PB15">
+            <summary>针脚PB15</summary>
+        </member>
+        <member name="F:NewLife.Pins.PC0">
+            <summary>针脚PC0</summary>
+        </member>
+        <member name="F:NewLife.Pins.PC1">
+            <summary>针脚PC1</summary>
+        </member>
+        <member name="F:NewLife.Pins.PC2">
+            <summary>针脚PC2</summary>
+        </member>
+        <member name="F:NewLife.Pins.PC3">
+            <summary>针脚PC3</summary>
+        </member>
+        <member name="F:NewLife.Pins.PC4">
+            <summary>针脚PC4</summary>
+        </member>
+        <member name="F:NewLife.Pins.PC5">
+            <summary>针脚PC5</summary>
+        </member>
+        <member name="F:NewLife.Pins.PC6">
+            <summary>针脚PC6</summary>
+        </member>
+        <member name="F:NewLife.Pins.PC7">
+            <summary>针脚PC7</summary>
+        </member>
+        <member name="F:NewLife.Pins.PC8">
+            <summary>针脚PC8</summary>
+        </member>
+        <member name="F:NewLife.Pins.PC9">
+            <summary>针脚PC9</summary>
+        </member>
+        <member name="F:NewLife.Pins.PC10">
+            <summary>针脚PC10</summary>
+        </member>
+        <member name="F:NewLife.Pins.PC11">
+            <summary>针脚PC11</summary>
+        </member>
+        <member name="F:NewLife.Pins.PC12">
+            <summary>针脚PC12</summary>
+        </member>
+        <member name="F:NewLife.Pins.PC13">
+            <summary>针脚PC13</summary>
+        </member>
+        <member name="F:NewLife.Pins.PC14">
+            <summary>针脚PC14</summary>
+        </member>
+        <member name="F:NewLife.Pins.PC15">
+            <summary>针脚PC15</summary>
+        </member>
+        <member name="F:NewLife.Pins.PD0">
+            <summary>针脚PD0</summary>
+        </member>
+        <member name="F:NewLife.Pins.PD1">
+            <summary>针脚PD1</summary>
+        </member>
+        <member name="F:NewLife.Pins.PD2">
+            <summary>针脚PD2</summary>
+        </member>
+        <member name="F:NewLife.Pins.PD3">
+            <summary>针脚PD3</summary>
+        </member>
+        <member name="F:NewLife.Pins.PD4">
+            <summary>针脚PD4</summary>
+        </member>
+        <member name="F:NewLife.Pins.PD5">
+            <summary>针脚PD5</summary>
+        </member>
+        <member name="F:NewLife.Pins.PD6">
+            <summary>针脚PD6</summary>
+        </member>
+        <member name="F:NewLife.Pins.PD7">
+            <summary>针脚PD7</summary>
+        </member>
+        <member name="F:NewLife.Pins.PD8">
+            <summary>针脚PD8</summary>
+        </member>
+        <member name="F:NewLife.Pins.PD9">
+            <summary>针脚PD9</summary>
+        </member>
+        <member name="F:NewLife.Pins.PD10">
+            <summary>针脚PD10</summary>
+        </member>
+        <member name="F:NewLife.Pins.PD11">
+            <summary>针脚PD11</summary>
+        </member>
+        <member name="F:NewLife.Pins.PD12">
+            <summary>针脚PD12</summary>
+        </member>
+        <member name="F:NewLife.Pins.PD13">
+            <summary>针脚PD13</summary>
+        </member>
+        <member name="F:NewLife.Pins.PD14">
+            <summary>针脚PD14</summary>
+        </member>
+        <member name="F:NewLife.Pins.PD15">
+            <summary>针脚PD15</summary>
+        </member>
+        <member name="F:NewLife.Pins.PE0">
+            <summary>针脚PE0</summary>
+        </member>
+        <member name="F:NewLife.Pins.PE1">
+            <summary>针脚PE1</summary>
+        </member>
+        <member name="F:NewLife.Pins.PE2">
+            <summary>针脚PE2</summary>
+        </member>
+        <member name="F:NewLife.Pins.PE3">
+            <summary>针脚PE3</summary>
+        </member>
+        <member name="F:NewLife.Pins.PE4">
+            <summary>针脚PE4</summary>
+        </member>
+        <member name="F:NewLife.Pins.PE5">
+            <summary>针脚PE5</summary>
+        </member>
+        <member name="F:NewLife.Pins.PE6">
+            <summary>针脚PE6</summary>
+        </member>
+        <member name="F:NewLife.Pins.PE7">
+            <summary>针脚PE7</summary>
+        </member>
+        <member name="F:NewLife.Pins.PE8">
+            <summary>针脚PE8</summary>
+        </member>
+        <member name="F:NewLife.Pins.PE9">
+            <summary>针脚PE9</summary>
+        </member>
+        <member name="F:NewLife.Pins.PE10">
+            <summary>针脚PE10</summary>
+        </member>
+        <member name="F:NewLife.Pins.PE11">
+            <summary>针脚PE11</summary>
+        </member>
+        <member name="F:NewLife.Pins.PE12">
+            <summary>针脚PE12</summary>
+        </member>
+        <member name="F:NewLife.Pins.PE13">
+            <summary>针脚PE13</summary>
+        </member>
+        <member name="F:NewLife.Pins.PE14">
+            <summary>针脚PE14</summary>
+        </member>
+        <member name="F:NewLife.Pins.PE15">
+            <summary>针脚PE15</summary>
+        </member>
+        <member name="F:NewLife.Pins.PF0">
+            <summary>针脚PF0</summary>
+        </member>
+        <member name="F:NewLife.Pins.PF1">
+            <summary>针脚PF1</summary>
+        </member>
+        <member name="F:NewLife.Pins.PF2">
+            <summary>针脚PF2</summary>
+        </member>
+        <member name="F:NewLife.Pins.PF3">
+            <summary>针脚PF3</summary>
+        </member>
+        <member name="F:NewLife.Pins.PF4">
+            <summary>针脚PF4</summary>
+        </member>
+        <member name="F:NewLife.Pins.PF5">
+            <summary>针脚PF5</summary>
+        </member>
+        <member name="F:NewLife.Pins.PF6">
+            <summary>针脚PF6</summary>
+        </member>
+        <member name="F:NewLife.Pins.PF7">
+            <summary>针脚PF7</summary>
+        </member>
+        <member name="F:NewLife.Pins.PF8">
+            <summary>针脚PF8</summary>
+        </member>
+        <member name="F:NewLife.Pins.PF9">
+            <summary>针脚PF9</summary>
+        </member>
+        <member name="F:NewLife.Pins.PF10">
+            <summary>针脚PF10</summary>
+        </member>
+        <member name="F:NewLife.Pins.PF11">
+            <summary>针脚PF11</summary>
+        </member>
+        <member name="F:NewLife.Pins.PF12">
+            <summary>针脚PF12</summary>
+        </member>
+        <member name="F:NewLife.Pins.PF13">
+            <summary>针脚PF13</summary>
+        </member>
+        <member name="F:NewLife.Pins.PF14">
+            <summary>针脚PF14</summary>
+        </member>
+        <member name="F:NewLife.Pins.PF15">
+            <summary>针脚PF15</summary>
+        </member>
+        <member name="F:NewLife.Pins.PG0">
+            <summary>针脚PG0</summary>
+        </member>
+        <member name="F:NewLife.Pins.PG1">
+            <summary>针脚PG1</summary>
+        </member>
+        <member name="F:NewLife.Pins.PG2">
+            <summary>针脚PG2</summary>
+        </member>
+        <member name="F:NewLife.Pins.PG3">
+            <summary>针脚PG3</summary>
+        </member>
+        <member name="F:NewLife.Pins.PG4">
+            <summary>针脚PG4</summary>
+        </member>
+        <member name="F:NewLife.Pins.PG5">
+            <summary>针脚PG5</summary>
+        </member>
+        <member name="F:NewLife.Pins.PG6">
+            <summary>针脚PG6</summary>
+        </member>
+        <member name="F:NewLife.Pins.PG7">
+            <summary>针脚PG7</summary>
+        </member>
+        <member name="F:NewLife.Pins.PG8">
+            <summary>针脚PG8</summary>
+        </member>
+        <member name="F:NewLife.Pins.PG9">
+            <summary>针脚PG9</summary>
+        </member>
+        <member name="F:NewLife.Pins.PG10">
+            <summary>针脚PG10</summary>
+        </member>
+        <member name="F:NewLife.Pins.PG11">
+            <summary>针脚PG11</summary>
+        </member>
+        <member name="F:NewLife.Pins.PG12">
+            <summary>针脚PG12</summary>
+        </member>
+        <member name="F:NewLife.Pins.PG13">
+            <summary>针脚PG13</summary>
+        </member>
+        <member name="F:NewLife.Pins.PG14">
+            <summary>针脚PG14</summary>
+        </member>
+        <member name="F:NewLife.Pins.PG15">
+            <summary>针脚PG15</summary>
+        </member>
+        <member name="M:NewLife.Pins.GetName(Microsoft.SPOT.Hardware.Cpu.Pin)">
+            <summary>获取计算针脚名称</summary>
+            <param name="pin"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
